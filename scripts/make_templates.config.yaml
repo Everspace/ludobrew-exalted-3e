@@ -1,0 +1,58 @@
+
+charmsPerEssence: [3,3,2,1,1]
+
+categories:
+  Archery: [Sharpshooter, Gattler, Ranger]
+  # 1 shot, 2 shot, weird shot blue shot
+  Athletics: [Speed, Strength, Sky]
+
+  Awareness: [Swift, Inspector, Oracle]
+  # JB, Look at here, look at far.
+
+  Brawl: [Fist, Avalanche, Coil]
+  # 1 punch, 2 punch, grapple you for lunch
+  Bureaucracy: [Merchant, Administrator, Lawyer]
+  # The Merchant knows how to find a deal, and leverage her wealth to extraordinary means.
+  # The Administrator runs her organization sublimely, with little effort, waste, or mistake. She is a bastion against the ills of the world intruding into the clockwork.
+  # The Lawyer navigates the workings of any organization like a fish navigates water, and pulls it as they see fit.
+  Craft: [Creator, Handyman, Planner]
+  Dodge: [Untouchable, Fleeting, Instigator]
+  # Untouchable dances with swords, tangos with avalanches, and emerges unscaithed.
+  # Fleeing is beyond your reach
+  # Instigator pushes and pulls allies
+  Integrity: [Passionate, Unmovable, Radiant]
+  Investigation: [Detective, Watchman, Judge]
+  # Find, prevent, know truth
+
+  Larceny: [Thief, Scoundrel, Infiltrator]
+
+  Linguistics: [Writer, Emissary, Orator]
+  # Writer, be the bridge between two people, memes
+  Lore: [Teacher, Sage, Archaeologist]
+  # Give people tools, introduce fact, know what's up in the first age ruins or whatever.
+  Medicine: [Doctor, Butcher, Pariah]
+  # Good medicine, bad medicine, self wounding
+  Melee: [Cutter, Wind, Protector]
+  # 1 cut, 2 cut, no cut other person
+
+  Occult: [Sorcerer, Liaison, Exorcist]
+  Performance: [Artist, Speaker, ]
+  Presence: [Terror, Inspiration, Force]
+  Resistance: [Immune, Berserker, Shield]
+  Ride: [Cataphract, Courier, Traveller]
+  Sail: [Sailor, Captain, Explorer]
+  Socialize: [Enigma, Socialite, Puppeteer]
+  # Guile, Know everyone be the life of the party,
+  # Move people who's intimacies you know
+
+  Stealth: [Sun, Invisible, Assassin]
+  Survival: [Trainer, Trailblazer, King] # Animals, "Survival survial", domination over the natural world
+  Thrown: [Swift, Trickster, Flurry] #
+  # Gambits
+  # So many knives
+  # Shoosh / 1 hit, 1 kill
+
+  War: [Leader, Strategist, Sargent]
+  # The Leader directs her troops from the ground, leading the charge and sharing her glory.
+  # Wins the war, maybe looses the battle (strategy)
+  # Turn teahouse to conquerers

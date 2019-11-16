@@ -1,0 +1,19 @@
+{
+  "name": "personal-ludobrew",
+  "description": "My personal area for homebrew projects",
+  "license": "Private",
+  "version": "1.0.0",
+  "author": {
+    "name": "Everspace"
+  },
+  "private": true,
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "@ludobrew/core": "*",
+    "@ludobrew/game-exalted-3e": "*",
+    "gatsby": "*"
+  }
+}
