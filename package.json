@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "demo": "gatsby develop -p 9001 -H 0.0.0.0"
   },
   "dependencies": {
     "@ludobrew/core": "*",
