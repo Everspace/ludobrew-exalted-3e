@@ -5,11 +5,14 @@ type: Permanent
 duration: Permanent
 essence: 3
 name: Debonair of Greatest Caper
+shortDescription: Create your own nemesis/love interest via crime
 rating: 4
 requires: [Heart of Phantom Thief]
 splat: Second Sunrise
 trait: Larceny
 tree: Scoundrel
+tags:
+  - Social
 ---
 
 The mere presence of the prince of people's hearts drives people to want. All succumbs to a baser desire, and the want for more.

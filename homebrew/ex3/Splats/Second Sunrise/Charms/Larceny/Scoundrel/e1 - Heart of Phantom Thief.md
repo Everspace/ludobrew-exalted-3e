@@ -5,9 +5,12 @@ type: Supplemental
 essence: 1
 name: Heart of Phantom Thief
 rating: 1
+shortDescription: Social at people via crime
 splat: Second Sunrise
 trait: Larceny
 tree: Scoundrel
+tags:
+  - Social
 ---
 
 The Scoundrel leaves a message with his daring acts, instilling love, hate, or intrigue with her latest caper.
