@@ -2,7 +2,7 @@
 content: charm
 cost: 5m 1wp
 duration: Scene
-shortDescription: Gain initiative while you concentrate
+shortDescription: Gain initiative while you do other things
 essence: 1
 name: Breathing Deep, Open Eyes
 rating: 2
@@ -13,6 +13,7 @@ tree: Sharpshooter
 tags:
   - Initiative
   - Buff
+  - Entry
 ---
 
 The sharpshooter pauses, gathering moments before the kill.
