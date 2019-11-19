@@ -1,16 +1,20 @@
 ---
 content: charm
 cost: 10m 1wp
-keywords: [Mute]
-shortDescription: Target takes XP debt to learn things
+duration: Instant
 essence: 1
+keywords:
+- Mute
 name: Practiced Light Revelations
 rating: 1
+requires: ~
+shortDescription: Target takes XP debt to learn things
 splat: Second Sunrise
+tags:
+- Entry
 trait: Lore
 tree: Teacher
-tags:
-  - Entry
+type: Simple
 ---
 
 The teacher draws upon the wells of her experience, and gives it to others.

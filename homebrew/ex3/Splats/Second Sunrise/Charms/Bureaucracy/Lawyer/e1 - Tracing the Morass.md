@@ -1,12 +1,17 @@
 ---
 content: charm
 cost: 3m
+duration: Instant
 essence: 1
 name: Tracing the Morass
 rating: 2
+requires: ~
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Bureaucracy
 tree: Lawyer
+type: Simple
 ---
 
 When you are told of a rule or other law gain an understanding of:

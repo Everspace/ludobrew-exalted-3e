@@ -1,13 +1,17 @@
 ---
 content: charm
 cost: 6m
+duration: Instant
 essence: 1
 name: Dross to Diamond Methodology
 rating: 2
 requires: []
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Bureaucracy
 tree: Merchant
+type: Simple
 ---
 
 The solar is a canny businesswoman, hawking her wares to greater heights on words alone. When her goods don't speak for themselves, she speaks for them.

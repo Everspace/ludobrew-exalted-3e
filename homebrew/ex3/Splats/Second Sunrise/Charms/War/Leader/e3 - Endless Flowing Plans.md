@@ -1,16 +1,19 @@
 ---
 content: charm
 cost: 6m 1wp
-type: Simple
-keywords: [Perilous]
 duration: Scene
 essence: 3
+keywords:
+- Perilous
 name: Endless Flowing Plans
 rating: 4
-# requires: []
+requires: ~
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: War
 tree: Leader
+type: Simple
 ---
 
 The solar is an endless series of commands, she dictates the flow of battle like

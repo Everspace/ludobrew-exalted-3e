@@ -1,16 +1,18 @@
 ---
 content: charm
 cost: 3m
-type: Supplemental
+duration: Instant
 essence: 1
 name: Heart of Phantom Thief
 rating: 1
+requires: ~
 shortDescription: Social at people via crime
 splat: Second Sunrise
+tags:
+- Social
 trait: Larceny
 tree: Scoundrel
-tags:
-  - Social
+type: Supplemental
 ---
 
 The Scoundrel leaves a message with his daring acts, instilling love, hate, or intrigue with her latest caper.

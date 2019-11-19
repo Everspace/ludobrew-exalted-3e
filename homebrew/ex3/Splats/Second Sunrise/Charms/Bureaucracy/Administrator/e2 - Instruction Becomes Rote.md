@@ -1,13 +1,18 @@
 ---
 content: charm
 cost: 5m, 1wp
+duration: Instant
 essence: 2
 name: Instruction Becomes Rote
 rating: 3
-requires: [Involatile Edict Proclamation]
+requires:
+- Involatile Edict Proclamation
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Bureaucracy
 tree: Administrator
+type: Simple
 ---
 
 Through even more thourough checks, the lawgiver leads their organization to greater consistency.

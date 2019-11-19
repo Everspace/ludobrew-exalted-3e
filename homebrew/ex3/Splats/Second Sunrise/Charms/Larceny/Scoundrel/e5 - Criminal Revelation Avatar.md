@@ -4,18 +4,19 @@ cost: 10m 1wp
 duration: 1 crime
 essence: 5
 name: Criminal Revelation Avatar
-shortDescription: Become the vengeance of the people
 rating: 5
 requires:
-  - Illustrious Scoundrel's Intrigue
-  - Debonair of Greatest Caper
+- Illustrious Scoundrel's Intrigue
+- Debonair of Greatest Caper
+shortDescription: Become the vengeance of the people
 splat: Second Sunrise
+tags:
+- Cult
+- Social
+- Capstone
 trait: Larceny
 tree: Scoundrel
-tags:
-  - Cult
-  - Social
-  - Capstone
+type: Simple
 ---
 
 In whispered breaths, the people cry for justice. The scoundrel takes the mantle of their forbidden and taboo wants, and enacts them.

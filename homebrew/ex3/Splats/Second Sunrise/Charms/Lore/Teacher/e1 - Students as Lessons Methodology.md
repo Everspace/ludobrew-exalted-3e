@@ -1,16 +1,17 @@
 ---
 content: charm
 cost: ~
-type: Permanent
 duration: Permanent
-shortDescription: Gain specialties/lore topics as you teach
 essence: 1
 name: Breathing Deep, Open Eyes
 rating: 2
-# requires: []
+requires: ~
+shortDescription: Gain specialties/lore topics as you teach
 splat: Second Sunrise
+tags: []
 trait: Lore
 tree: Teacher
+type: Permanent
 ---
 
 The teacher is as much a student as they are instructor.

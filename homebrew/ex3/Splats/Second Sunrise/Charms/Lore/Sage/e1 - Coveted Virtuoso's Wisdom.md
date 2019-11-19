@@ -1,14 +1,17 @@
 ---
 content: charm
 cost: 2m
-type: Supplemental
+duration: Instant
 essence: 1
 name: Coveted Virtuoso's Wisdom
 rating: 1
-# requires: []
+requires: ~
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Lore
 tree: Sage
+type: Supplemental
 ---
 
 The entirety of a sage's life is an endless font of knowledge.

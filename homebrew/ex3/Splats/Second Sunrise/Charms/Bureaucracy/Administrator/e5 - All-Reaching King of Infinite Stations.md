@@ -1,14 +1,18 @@
 ---
 content: charm
 cost: something
+duration: Instant
 essence: 5
 name: All-Reaching King of Infinite Stations
 rating: 5
 requires:
-  - Instruction Becomes Rote
+- Instruction Becomes Rote
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Bureaucracy
 tree: Administrator
+type: Simple
 ---
 
 The solar is the true king of all he belongs to, regardless of other's say in the matter.

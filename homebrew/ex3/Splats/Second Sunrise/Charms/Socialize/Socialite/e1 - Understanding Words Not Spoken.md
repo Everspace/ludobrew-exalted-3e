@@ -1,13 +1,17 @@
 ---
 content: charm
 cost: 3m
+duration: Instant
 essence: 1
 name: Understanding Words Not Spoken
 rating: 1
-# requires: []
+requires: ~
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Socialize
 tree: Socialite
+type: Simple
 ---
 
 The canny socialite picks up on subtle cues and signs to glean information out of private conversations, and hidden intrigues.

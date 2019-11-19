@@ -1,17 +1,18 @@
 ---
 content: charm
 cost: ~
-type: Permanent
 duration: Permanent
-shortDescription: Grow anima levels as you concentrate
 essence: 3
 name: Raising Sun Falling Demon
 rating: 3
 requires:
- - Breathing Deep, Open Eyes
+- Breathing Deep, Open Eyes
+shortDescription: Grow anima levels as you concentrate
 splat: Second Sunrise
+tags: []
 trait: Archery
 tree: Sharpshooter
+type: Permanent
 ---
 
 The solar grows in intensity, the terrible might of the sun culminating in doom of all her enemies.

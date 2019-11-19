@@ -1,14 +1,18 @@
 ---
 content: charm
 cost: 5m
-type: Reflexive
+duration: Instant
 essence: 2
 name: Critical Performance Commentary
 rating: 3
-requires: ["Arête of 10,000 Facts"]
+requires:
+- "Ar\xEAte of 10,000 Facts"
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Lore
 tree: Sage
+type: Reflexive
 ---
 
 The sage studies at all times, giving her insight into hidden flaws and various failings in comparison to the perfection of the sun and it's chosen.

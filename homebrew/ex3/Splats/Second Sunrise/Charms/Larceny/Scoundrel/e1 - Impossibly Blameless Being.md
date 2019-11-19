@@ -1,16 +1,19 @@
 ---
 content: charm
 cost: 5m 1wp
+duration: Instant
 essence: 1
 name: Impossibly Blamesless Being
-shortDescription: Tell the guards that you're just taking the diamond to be cleaned
 rating: 2
+requires: ~
+shortDescription: Tell the guards that you're just taking the diamond to be cleaned
 splat: Second Sunrise
+tags:
+- Social
+- Persuade
 trait: Larceny
 tree: Scoundrel
-tags:
-  - Social
-  - Persuade
+type: Simple
 ---
 
 The Scoundrel easily dissuades people from seeing the dirt behind their deeds.

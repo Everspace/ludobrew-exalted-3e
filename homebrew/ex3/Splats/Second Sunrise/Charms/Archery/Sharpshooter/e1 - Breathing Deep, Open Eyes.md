@@ -2,18 +2,19 @@
 content: charm
 cost: 5m 1wp
 duration: Scene
-shortDescription: Gain initiative while you do other things
 essence: 1
 name: Breathing Deep, Open Eyes
 rating: 2
-# requires: []
+requires: ~
+shortDescription: Gain initiative while you do other things
 splat: Second Sunrise
+tags:
+- Initiative
+- Buff
+- Entry
 trait: Archery
 tree: Sharpshooter
-tags:
-  - Initiative
-  - Buff
-  - Entry
+type: Simple
 ---
 
 The sharpshooter pauses, gathering moments before the kill.

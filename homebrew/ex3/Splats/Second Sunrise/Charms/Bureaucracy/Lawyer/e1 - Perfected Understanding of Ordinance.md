@@ -1,13 +1,17 @@
 ---
 content: charm
 cost: 3m
+duration: Instant
 essence: 1
 name: Perfected Understanding of Ordinance
 rating: 1
-# requires: []
+requires: ~
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Bureaucracy
 tree: Lawyer
+type: Simple
 ---
 
 The Solar Lawyer does not let stray clauses or strange requirements slip by. Their understanding is complete for any legal document presented to them.

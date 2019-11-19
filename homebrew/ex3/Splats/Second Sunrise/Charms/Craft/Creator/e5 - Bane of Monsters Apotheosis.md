@@ -1,19 +1,19 @@
 ---
 content: charm
 cost: 20m, 2wp, 30gxp
+duration: Instant
 essence: 5
 name: Bane of Monsters Apotheosis
-shortDescription: Instantly make an artifact to kill a monster
 rating: 5
-# TODO: Do requirements?
-# TODO: get xp sorted out
-# requires: []
+requires: ~
+shortDescription: Instantly make an artifact to kill a monster
 splat: Second Sunrise
+tags:
+- Artifact
+- Craft XP
 trait: Craft
 tree: Creator
-tags:
-  - Artifact
-  - Craft XP
+type: Simple
 ---
 
 The solar beckons a new thing into existence from something precious, to defend creation.

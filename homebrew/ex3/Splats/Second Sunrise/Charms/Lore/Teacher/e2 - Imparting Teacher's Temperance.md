@@ -1,17 +1,20 @@
 ---
 content: charm
 cost: ~
-keywords: [Permanent]
-type: Permanent
-
+duration: Instant
 essence: 2
+keywords:
+- Permanent
 name: Imparting Teacher's Temperance
 rating: 3
 requires:
 - Practiced Light Revelations
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Lore
 tree: Teacher
+type: Permanent
 ---
 
 The teacher's guidance rubs off on the student, and their beliefs are shaped by the teacher's lessions.

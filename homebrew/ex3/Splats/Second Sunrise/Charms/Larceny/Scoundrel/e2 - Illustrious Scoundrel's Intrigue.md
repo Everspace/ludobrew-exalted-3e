@@ -1,16 +1,19 @@
 ---
 content: charm
 cost: ~
+duration: Instant
 essence: 2
 name: Illustrious Scoundrel's Intrigue
-shortDescription: Social at a larger audience via crime
 rating: 2
-requires: [Heart of Phantom Thief]
+requires:
+- Heart of Phantom Thief
+shortDescription: Social at a larger audience via crime
 splat: Second Sunrise
+tags:
+- Social
 trait: Larceny
 tree: Scoundrel
-tags:
-  - Social
+type: Simple
 ---
 
 Those who witness the results of the scoundrel's actions are inclined to think of him highly in some regard.

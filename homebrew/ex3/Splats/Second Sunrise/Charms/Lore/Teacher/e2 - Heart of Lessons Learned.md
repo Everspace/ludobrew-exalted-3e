@@ -1,13 +1,17 @@
 ---
 content: charm
 cost: ~
+duration: Instant
 essence: 3
 name: Heart of Lessons Learned
 rating: 3
-# requires: []
+requires: ~
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Lore
 tree: Teacher
+type: Simple
 ---
 
 The student is ever wary of what their teacher would think of them for choosing something. "What would ~~Jesus~~ my teacher do?"

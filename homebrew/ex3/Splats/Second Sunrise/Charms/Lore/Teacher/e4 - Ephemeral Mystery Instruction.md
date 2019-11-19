@@ -1,13 +1,18 @@
 ---
 content: charm
 cost: 10m 1wp
+duration: Instant
 essence: 4
 name: Ephemeral Mystery Instruction
 rating: 4
-requires: [Practiced Light Revelations]
+requires:
+- Practiced Light Revelations
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Lore
 tree: Teacher
+type: Simple
 ---
 
 The solar imparts stranger and stranger esoterica that they know to the willing student.

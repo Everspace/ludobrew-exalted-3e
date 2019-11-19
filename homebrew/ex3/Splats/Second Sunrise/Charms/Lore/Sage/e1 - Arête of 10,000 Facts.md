@@ -1,14 +1,17 @@
 ---
 content: charm
 cost: 4m
-type: Supplemental
+duration: Instant
 essence: 1
-name: Arête of 10,000 Facts
+name: "Ar\xEAte of 10,000 Facts"
 rating: 1
 requires: []
+shortDescription: ~
 splat: Second Sunrise
+tags: []
 trait: Lore
 tree: Sage
+type: Supplemental
 ---
 
 The sage is a source of infinite knowledge, and knows how to apply it to boot!

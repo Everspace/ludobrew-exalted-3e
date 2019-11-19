@@ -1,15 +1,17 @@
 ---
 content: charm
 cost: 10m 1wp
+duration: Instant
 essence: 3
 name: Sailing to Foreign Stars
-shortDescription: Sail to Malfeas or Yu Shan
 rating: 4
-# TODO: requirements
-# requires: []
+requires: ~
+shortDescription: Sail to Malfeas or Yu Shan
 splat: Second Sunrise
+tags: []
 trait: Sail
 tree: Explorer
+type: Simple
 ---
 
 With some help, the explorer plots a path to a place they've never been.
