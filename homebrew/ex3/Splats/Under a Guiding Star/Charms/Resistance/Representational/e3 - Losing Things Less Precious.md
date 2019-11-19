@@ -9,8 +9,8 @@ requires: []
 shortDescription: Cure someone who had a horrible fate.
 splat: Under a Guiding Star
 tags: []
-trait: Medicine
-tree: Conventional
+trait: Resistance
+tree: Representational
 type: Reflexive
 ---
 
