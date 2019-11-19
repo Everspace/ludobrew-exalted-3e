@@ -6,7 +6,7 @@ content: page
 |---:|:---:|
 | 1 | Instantly/Reflexively
 | 2 | Simple
-| 3 | Seconds
+| 3 | Rounds/Seconds
 | 4 | Minutes
 | 5 | Hours
 | 6 | Days
