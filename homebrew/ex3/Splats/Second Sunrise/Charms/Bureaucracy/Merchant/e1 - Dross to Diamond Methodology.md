@@ -6,7 +6,7 @@ essence: 1
 name: Dross to Diamond Methodology
 rating: 2
 requires: []
-shortDescription: ~
+shortDescription: Drastically upsell something
 splat: Second Sunrise
 tags: []
 trait: Bureaucracy

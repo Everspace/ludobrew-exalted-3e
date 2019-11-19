@@ -7,7 +7,7 @@ name: Hidden Gem Unburial
 rating: 4
 requires:
 - Dross to Diamond Methodology
-shortDescription: ~
+shortDescription: The thing you upsold was valueable all along
 splat: Second Sunrise
 tags: []
 trait: Bureaucracy
