@@ -14,8 +14,8 @@ tree: Handyman
 type: Simple
 ---
 
-Perform a repair project of any scale, and perfectly adapt something for something else that it is ill suited for.
+Perform a repair project, and perfectly adapt something for someone that it was ill suited for.
 
 A solar may make a home in sunken Luthe tailor-made for an Ifriti and their life around it; a series of swords perfected for swinging in the air while winged.
 
-This prevents any physical complications from applying to mundane items or features improved with charm.
+This prevents any physical complications from applying to mundane items or features improved with this charm.
