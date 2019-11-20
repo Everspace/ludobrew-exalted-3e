@@ -25,4 +25,4 @@ before_install:
 install: yarn
 script:
   - yarn workspace personal-ludobrew build
-  - netlify deploy --dir=personal-ludobrew/public --prod
+  - netlify deploy --dir=personal-ludobrew/public --prod --auth $NETLIFY_AUTH_TOKEN
