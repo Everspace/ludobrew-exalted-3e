@@ -1,0 +1,19 @@
+language: node_js
+branches:
+  only:
+    - master
+
+git:
+  clone: false
+
+cache: yarn
+
+before_install:
+  - git clone https://github.com/ludobrew/core.git
+  - git clone https://github.com/ludobrew/game-exalted-3e.git
+  - git clone https://github.com/Everspace/personal-ludobrew.git
+  - > echo '{ "name": "my-workspace","private": true, "workspaces": ["core", "game-exalted-3e", "personal-ludobrew" ] }' > package.json
+
+install: yarn
+script:
+  - yarn workspace personal-ludobrew build
