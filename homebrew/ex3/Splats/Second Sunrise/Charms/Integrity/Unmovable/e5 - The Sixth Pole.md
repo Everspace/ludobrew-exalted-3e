@@ -3,7 +3,7 @@ content: charm
 cost: 20m 2wp
 duration: While concentrating
 essence: 5
-name: The 6th Pole
+name: The Sixth Pole
 rating: 5
 requires: [Those Who Walk Beside]
 shortDescription: Become the elemental pole of yourself
