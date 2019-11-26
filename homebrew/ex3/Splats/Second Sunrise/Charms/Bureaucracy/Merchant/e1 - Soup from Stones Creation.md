@@ -3,7 +3,7 @@ content: charm
 cost: 5m 1wp
 duration: Instant
 essence: 1
-name: Soup from Stones Methodology
+name: Soup from Stones Creation
 rating: 2
 requires: []
 shortDescription: Pull resources from people who don't have any.
