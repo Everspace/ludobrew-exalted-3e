@@ -2,16 +2,16 @@
 content: charm
 cost: something
 duration: Instant
-essence: 5
-name: Larceny e5 Charm 1
-rating: 5
+essence: 3
+name: Walking the Evening Halls
+rating: 3
 requires: []
 shortDescription: ~
 splat: Second Sunrise
 tags: []
-trait: Larceny
-tree: Infiltrator
+trait: Occult
+tree: Exorcist
 type: Simple
 ---
 
-Hello **world**!
+Party can fight ghosts now

@@ -2,16 +2,16 @@
 content: charm
 cost: something
 duration: Instant
-essence: 2
-name: Presence e2 Charm 3
-rating: 2
+essence: 1
+name: Exquisite Auditor's Ban
+rating: 1
 requires: []
 shortDescription: ~
 splat: Second Sunrise
 tags: []
-trait: Presence
-tree: Force
+trait: Occult
+tree: Exorcist
 type: Simple
 ---
 
-Hello **world**!
+Spirits lose the charm "Hurry Home"

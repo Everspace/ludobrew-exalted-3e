@@ -3,7 +3,7 @@ content: charm
 cost: something
 duration: Instant
 essence: 5
-name: Occult e5 Charm 1
+name: Bane Imprinting Kata
 rating: 5
 requires: []
 shortDescription: ~
@@ -14,4 +14,4 @@ tree: Exorcist
 type: Simple
 ---
 
-Hello **world**!
+Introduce a weakness of a spirit. It functions as a thing that they hate at the defining level. Threaten always works with it.
