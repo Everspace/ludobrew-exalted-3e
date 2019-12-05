@@ -1,5 +1,6 @@
 ---
 content: page
+name: Time Table
 ---
 
 | tier | Time |
