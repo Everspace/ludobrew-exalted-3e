@@ -17,7 +17,7 @@ This includes typically:
 
 This includes me moving certain charms to "Universal" for Solars, where they don't have ability dot prerequisites.
 
-[Where the tweaks live](/pages/house-rules/charms)
+The tweaks, vanilla "ok" charms, and rulings for any charm live in the "normal name" for that splat, like [Solar](/ex3/solar/) or [Lunar](/ex3/lunar/)
 
 # Splat Tweaks
 
@@ -66,14 +66,18 @@ This is how I interpret the various socially aligned stats. This is not the be-a
 
 | Stat | Used for |
 |:---- | :------: |
+| **Social**
 | Charisma | Making an ernest argument. The intimacy or reasoning is based around the character themselves posses |
 | Manipulation | Invoking emotions. Getting a person to work in certain ways for your own, or someone else's personal benefit. |
 | Appearance | Invoking emotions. Intimacies both positive and negatively related to you. Stunts that involve a physicality to them.
+| **Mental**
+| Intelligence | Recall information or history about things.
+| Wits | Figure out why, where, and how in the "now", but no context
 
 **Standard Abilities**
 
 | Stat | Used for |
-|:---- | :------: |
+|:-----|:--------:|
 | Linguistics | Argument is written or is based in debate, or is spoken with the intent that the words themselves are inspiring or thoughtful. |
 | Presence | Making someone believe or change their manner based on it being "you" and no-one else.
 | Performance | Argument is delivered with passion, even if the words are garbled or not quite right. Delivering an argument duplicitously. Things that could be considered "art"
