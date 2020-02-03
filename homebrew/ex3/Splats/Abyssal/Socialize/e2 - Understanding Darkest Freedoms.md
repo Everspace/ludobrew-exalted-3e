@@ -7,10 +7,10 @@ name: Understanding Darkest Freedoms
 rating: 3
 requires: []
 shortDescription: What would you do if someone was dead?
-splat: Second Sunrise
+splat: Abyssal
 tags: []
 trait: Socialize
-tree: ~
+tree: Taboo
 type: Supplimental
 ---
 
