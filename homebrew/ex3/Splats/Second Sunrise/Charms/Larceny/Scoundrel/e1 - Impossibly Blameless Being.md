@@ -18,4 +18,4 @@ type: Simple
 
 The Scoundrel easily dissuades people from seeing the dirt behind their deeds.
 
-When someone catches the solar in a situation that reveals their crimes, she may use this charm to recount a different reason for their current predicament, or pin the blame on someone else. This allows them to substitute a normal persuade with a Larceny based one if they choose, with (Larceny) dice regardless.
+When someone catches the solar in a situation that reveals their crimes, she may use this charm to recount a different reason for their current predicament, or pin the blame on someone else. This allows them to substitute a normal persuade with a Larceny based one if they choose, with (Larceny) dice regardless, allowing you to target a minor intimacy that you are a trustworthy person, and preventing any intimacies relating to their duty or general suspicion from interfearing.
