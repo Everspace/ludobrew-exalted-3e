@@ -1,0 +1,6 @@
+# Netlify redirects file
+
+https://ludobrew.everspace.ca/ex3/* https://ex3.ludobrew.everspace.ca/:splat 301!
+https://ludobrew.everspace.ca/* https://ex3.ludobrew.everspace.ca/:splat 301!
+
+https://ex3.ludobrew.everspace.ca/ex3/* https://ex3.ludobrew.everspace.ca/:splat 301!
