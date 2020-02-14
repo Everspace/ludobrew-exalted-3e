@@ -1,5 +1,5 @@
 {
-  "name": "personal-ludobrew",
+  "name": "ludobrew-exalted-3e",
   "description": "My personal area for homebrew projects",
   "license": "Private",
   "version": "1.0.0",
@@ -14,8 +14,8 @@
     "demo": "gatsby develop -p 9001 -H 0.0.0.0"
   },
   "dependencies": {
-    "@ludobrew/core": "*",
-    "@ludobrew/game-exalted-3e": "*",
+    "gatsby-theme-ludobrew-core": "*",
+    "gatsby-theme-ludobrew-exalted-3e": "*",
     "gatsby": "*"
   }
 }

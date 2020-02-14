@@ -5,12 +5,12 @@ module.exports = {
     description: "My personal site for homebrew",
     github: {
       username: "Everspace",
-      repo: "personal-ludobrew",
+      repo: "ludobrew-exalted-3e",
       branch: "master",
     }
   },
   plugins: [
-    "@ludobrew/core",
-    "@ludobrew/game-exalted-3e"
+    "gatsby-theme-ludobrew-core",
+    "gatsby-theme-ludobrew-exalted-3e"
   ]
 }
