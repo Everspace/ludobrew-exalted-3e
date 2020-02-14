@@ -17,12 +17,23 @@ cache: yarn
 
 before_install:
   - yarn global add netlify-cli
-  - git clone https://github.com/ludobrew/core.git
-  - git clone https://github.com/ludobrew/game-exalted-3e.git
-  - git clone https://github.com/Everspace/personal-ludobrew.git
-  - "echo '{ \"name\": \"my-workspace\",\"private\": true, \"workspaces\": [\"core\", \"game-exalted-3e\", \"personal-ludobrew\" ] }' > package.json"
+  - git clone https://github.com/ludobrew/gatsby-theme-ludobrew-core.git
+  - git clone https://github.com/ludobrew/gatsby-theme-ludobrew-exalted-3e.git
+  - git clone https://github.com/Everspace/ludobrew-exalted-3e.git
+  - >-
+      echo
+      '{
+        "name": "my-workspace",
+        "private": true,
+        "workspaces": [
+          "gatsby-theme-ludobrew-core",
+          "gatsby-theme-ludobrew-exalted-3e",
+          "ludobrew-exalted-3e"
+        ]
+      }'
+      > package.json
 
 install: yarn
 script:
-  - yarn workspace personal-ludobrew build
-  - netlify deploy --dir=personal-ludobrew/public --prod --auth $NETLIFY_AUTH_TOKEN
+  - yarn workspace ludobrew-exalted-3e build
+  - netlify deploy --dir=ludobrew-exalted-3e/public --prod --auth $NETLIFY_AUTH_TOKEN
