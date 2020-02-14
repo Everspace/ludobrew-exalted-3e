@@ -1,6 +1,6 @@
 ---
 content: charm
-cost: something
+cost: 7m
 duration: Instant
 essence: 1
 name: Involatile Edict Proclamation
