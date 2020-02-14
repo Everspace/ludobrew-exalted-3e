@@ -18,6 +18,6 @@ The Liaison treads the border between worlds, and picks up a plethora of tricks 
 
 Treat your essence as (Essence + Occult) for the purposes of learning or when using Eclipse tagged charms.
 
-When you first purchase this charm, learn Eclipse charm of your choosing. Describe the being who gave you the charm, and how you met them and acquired it. Gain an appropriate major tie towards them.
+When you purchase this charm, learn an Eclipse charm of your choosing after taking some downtime. Describe the being who gave you the charm, and how you met them and acquired it. Gain an appropriate major tie towards them.
 
 You may repurchase this charm as many times as you like.
