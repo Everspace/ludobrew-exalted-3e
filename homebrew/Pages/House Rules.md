@@ -66,13 +66,13 @@ This is how I interpret the various socially aligned stats. This is not the be-a
 
 | Stat | Used for |
 |:---- | :------: |
-| **Social**
+| **Social** | --- |
 | Charisma | Making an ernest argument. The intimacy or reasoning is based around the character themselves posses |
 | Manipulation | Invoking emotions. Getting a person to work in certain ways for your own, or someone else's personal benefit. |
-| Appearance | Invoking emotions. Intimacies both positive and negatively related to you. Stunts that involve a physicality to them.
-| **Mental**
-| Intelligence | Recall information or history about things.
-| Wits | Figure out why, where, and how in the "now", but no context
+| Appearance | Invoking emotions. Intimacies both positive and negatively related to you. Stunts that involve a physicality to them. |
+| **Mental** | --- |
+| Intelligence | Recall information or history about things. |
+| Wits | Figure out why, where, and how in the "now", but no context |
 
 **Standard Abilities**
 
