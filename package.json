@@ -8,14 +8,15 @@
   },
   "private": true,
   "scripts": {
-    "start:schema": "gatsby clean && gatsby develop",
+    "start:rebuild": "gatsby clean && gatsby develop",
+    "clean": "gatsby clean",
     "start": "gatsby develop",
     "build": "gatsby build",
     "demo": "gatsby develop -p 9001 -H 0.0.0.0"
   },
   "dependencies": {
+    "gatsby": "*",
     "gatsby-theme-ludobrew-core": "*",
-    "gatsby-theme-ludobrew-exalted-3e": "*",
-    "gatsby": "*"
+    "gatsby-theme-ludobrew-exalted-3e": "*"
   }
 }
