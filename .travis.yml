@@ -37,9 +37,8 @@ before_install:
       }'
       > package.json
   # Pre-make caching directories
-  - mkdir -p public .cache
-  - ln --target-directory=ludobrew-exalted-3e ../public public
-  - ln --target-directory=ludobrew-exalted-3e ../.cache .cache
+  - ln --symbolic --target-directory=ludobrew-exalted-3e public public
+  - ln --symbolic --target-directory=ludobrew-exalted-3e .cache .cache
 
 install: yarn
 script:
