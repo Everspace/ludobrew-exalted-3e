@@ -37,6 +37,7 @@ before_install:
       }'
       > package.json
   # Pre-make caching directories
+  - ls -la ludobrew-exalted-3e
   - ln --symbolic --target-directory=ludobrew-exalted-3e public public
   - ln --symbolic --target-directory=ludobrew-exalted-3e .cache .cache
 
