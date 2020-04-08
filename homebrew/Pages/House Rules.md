@@ -29,6 +29,7 @@ The tweaks, vanilla "ok" charms, and rulings for any charm live in the "normal n
   * buy dots, and charms at 1/2 price
   * At character creation, you receive a free MA charm for every MA charm you purchase
   * Come up with solar charm improvements that stitch into martial arts charms.
+* Performance charms do not automatically waive the -3 penalty for speaking to a group. For that please take [Artful Social Grace](/second-sunrise/universal/artful-social-grace) does not
 
 ## Lunar
 
