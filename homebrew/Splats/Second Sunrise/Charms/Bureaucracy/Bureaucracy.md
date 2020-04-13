@@ -1,5 +1,5 @@
 ---
-type: preface
+content: preface
 trait: Bureaucracy
 splat: Second Sunrise
 ---
