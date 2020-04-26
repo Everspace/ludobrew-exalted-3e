@@ -1,5 +1,5 @@
 ---
-content: preface
+content: ability preface
 splat: Second Sunrise
 trait: Larceny
 ---
