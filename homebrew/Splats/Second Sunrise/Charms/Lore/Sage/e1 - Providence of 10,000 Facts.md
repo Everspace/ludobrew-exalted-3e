@@ -3,7 +3,7 @@ content: charm
 cost: 4m
 duration: Instant
 essence: 1
-name: "Ar\xEAte of 10,000 Facts"
+name: Providence of 10,000 Facts
 rating: 1
 requires: []
 shortDescription: ~

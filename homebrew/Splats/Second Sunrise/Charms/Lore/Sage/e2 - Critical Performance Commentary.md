@@ -6,7 +6,7 @@ essence: 2
 name: Critical Performance Commentary
 rating: 3
 requires:
-- "Ar\xEAte of 10,000 Facts"
+- Providence of 10,000 Facts
 shortDescription: ~
 splat: Second Sunrise
 tags: []
