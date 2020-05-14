@@ -11,7 +11,7 @@ branches:
     - master
 
 git:
-  clone: false
+  quiet: true
 
 cache:
   yarn: true
