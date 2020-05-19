@@ -15,11 +15,8 @@
     "demo": "gatsby develop -p 9001 -H 0.0.0.0"
   },
   "dependencies": {
-    "gatsby": "2.21.30",
-    "gatsby-theme-ludobrew-core": "ludobrew/gatsby-theme-ludobrew-core",
-    "gatsby-theme-ludobrew-exalted-3e": "ludobrew/gatsby-theme-ludobrew-exalted-3e"
-  },
-  "devDependencies": {
-    "netlify-cli": "2.51.0"
+    "gatsby": "*",
+    "gatsby-theme-ludobrew-core": "*",
+    "gatsby-theme-ludobrew-exalted-3e": "*"
   }
 }
