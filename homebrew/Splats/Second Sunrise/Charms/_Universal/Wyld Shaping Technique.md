@@ -14,4 +14,4 @@ requires: []
 tags: []
 ---
 
-TODO: Write things about this.
+Summon a challenge. When you conquer it, your desire manifests.
