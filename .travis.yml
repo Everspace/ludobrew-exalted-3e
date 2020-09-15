@@ -21,9 +21,9 @@ cache:
 
 before_install:
   - yarn global add netlify-cli
-  - git clone https://github.com/ludobrew/gatsby-theme-ludobrew-core.git
-  - git clone https://github.com/ludobrew/gatsby-theme-ludobrew-exalted-3e.git
-  - git clone https://github.com/Everspace/ludobrew-exalted-3e.git
+  - git clone -q --depth 1 https://github.com/ludobrew/gatsby-theme-ludobrew-core.git
+  - git clone -q --depth 1 https://github.com/ludobrew/gatsby-theme-ludobrew-exalted-3e.git
+  - git clone -q --depth 1 https://github.com/Everspace/ludobrew-exalted-3e.git
   - >-
       echo
       '{
@@ -39,6 +39,7 @@ before_install:
 
 install: yarn
 script:
+  - ls
   - mv .cache public ./ludobrew-exalted-3e/
   - yarn workspace ludobrew-exalted-3e build
   - mv ./ludobrew-exalted-3e/.cache ./ludobrew-exalted-3e/public .
