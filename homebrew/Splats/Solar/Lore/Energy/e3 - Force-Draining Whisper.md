@@ -3,7 +3,7 @@ content: charm
 splat: Solar
 trait: Lore
 tree: Energy
-name: Force-Draning Whisper
+name: Force-Draining Whisper
 type: Reflexive
 duration: Instant
 cost: 10m, 1wp
