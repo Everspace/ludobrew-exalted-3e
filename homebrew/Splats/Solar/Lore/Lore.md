@@ -7,3 +7,4 @@ trait: Lore
 The trees are:
 
 * **Energy**: Resource manipulation
+* **Utility**: Useful stuff for any lore tree
