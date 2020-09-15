@@ -42,4 +42,4 @@ script:
   - mv .cache public ./ludobrew-exalted-3e/
   - yarn workspace ludobrew-exalted-3e build
   - mv ./ludobrew-exalted-3e/.cache ./ludobrew-exalted-3e/public .
-  - netlify deploy --prod --auth $NETLIFY_AUTH_TOKEN
+  - netlify deploy --dir=./prod  --prod --auth $NETLIFY_AUTH_TOKEN
