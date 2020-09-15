@@ -15,6 +15,9 @@ git:
 
 cache:
   yarn: true
+  directories:
+    - .cache
+    - public
 
 before_install:
   - yarn global add netlify-cli
@@ -36,5 +39,7 @@ before_install:
 
 install: yarn
 script:
+  - mv .cache public ./ludobrew-exalted-3e/
   - yarn workspace ludobrew-exalted-3e build
-  - netlify deploy --dir=ludobrew-exalted-3e/public --prod --auth $NETLIFY_AUTH_TOKEN
+  - mv ./ludobrew-exalted-3e/.cache ./ludobrew-exalted-3e/public .
+  - netlify deploy --prod --auth $NETLIFY_AUTH_TOKEN
