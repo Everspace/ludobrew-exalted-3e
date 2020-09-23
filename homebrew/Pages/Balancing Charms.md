@@ -1,5 +1,5 @@
 ---
-content: Page
+content: page
 name: Balancing Charms
 ---
 
@@ -83,7 +83,6 @@ The amount of power that can go into a charm and feel fair is roughly a combinat
 |:-----:|:----:
 | -1 penalty removed | 1m/per
 | -1 penalty applied | 3m/per
-|
 
 ## Buffs, Stances, and such
 
