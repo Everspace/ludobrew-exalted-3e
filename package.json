@@ -18,5 +18,8 @@
     "gatsby": "*",
     "gatsby-theme-ludobrew-core": "*",
     "gatsby-theme-ludobrew-exalted-3e": "*"
+  },
+  "devDependencies": {
+    "gatsby-plugin-google-analytics": "^2.3.14"
   }
 }
