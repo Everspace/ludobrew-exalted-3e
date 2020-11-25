@@ -17,7 +17,7 @@ This includes typically:
 
 This includes me moving certain charms to "Universal" for Solars, where they don't have ability dot prerequisites.
 
-The tweaks, vanilla "ok" charms, and rulings for any charm live in the "normal name" for that splat, like [Solar](/ex3/solar/) or [Lunar](/ex3/lunar/)
+The tweaks, vanilla "ok" charms, and rulings for any charm live in the "normal name" for that splat, like [Solar](/solar/) or [Lunar](/lunar/)
 
 # Splat Tweaks
 
