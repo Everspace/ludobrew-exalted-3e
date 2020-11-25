@@ -2,9 +2,9 @@
 content: charm
 cost: 1wp
 duration: Instant
-essence: 3
+essence: 1
 name: Sudden Eruption of Wroth
-rating: 3
+rating: 2
 requires:
   - Perfectly Placed Hysterics
 shortDescription: Use your feelings to join battle.

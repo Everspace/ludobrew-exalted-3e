@@ -2,9 +2,9 @@
 content: charm
 cost: ~
 duration: Instant
-essence: 1
+essence: 3
 name: Will Beyond Reason
-rating: 1
+rating: 3
 requires: []
 shortDescription: Spend all the willpower you like on a roll.
 splat: Second Sunrise
