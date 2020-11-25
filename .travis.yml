@@ -45,12 +45,18 @@ before_install:
       > package.json
 
 install: yarn
-script:
-  - ls
-  - mv .cache public ./ludobrew-exalted-3e/
-  - yarn workspace ludobrew-exalted-3e build
-  - mv ./ludobrew-exalted-3e/.cache ./ludobrew-exalted-3e/public .
-  - mv gatsby-theme-ludobrew-core/node_modules       core_node_modules
-  - mv gatsby-theme-ludobrew-exalted-3e/node_modules exalted-3e_node_modules
-  - mv ludobrew-exalted-3e/node_modules              brew_node_modules
-  - netlify deploy --dir=./public  --prod --auth $NETLIFY_AUTH_TOKEN
+
+jobs:
+  include:
+    - stage: build
+      script:
+      - ls
+      - mv .cache public ./ludobrew-exalted-3e/
+      - yarn workspace ludobrew-exalted-3e build
+      - mv ./ludobrew-exalted-3e/.cache ./ludobrew-exalted-3e/public .
+      - mv gatsby-theme-ludobrew-core/node_modules       core_node_modules
+      - mv gatsby-theme-ludobrew-exalted-3e/node_modules exalted-3e_node_modules
+      - mv ludobrew-exalted-3e/node_modules              brew_node_modules
+    - stage: deploy
+      script:
+      - netlify deploy --dir=./public  --prod --auth $NETLIFY_AUTH_TOKEN
