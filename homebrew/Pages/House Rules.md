@@ -96,15 +96,10 @@ This is how I interpret the various socially aligned stats. This is not the be-a
 
 # Craft
 
-* The craft stats are based around the 5 elements from 2nd edition by default. They are and roughly the categories they encompass:
-  * **Earth**: Stonework, Architecture, Statuary
-  * **Wind**: Jewlery, Paint, Arts
-  * **Water**: Cooking, Alchemy, Leatherworking,
-  * **Fire**: Blacksmithing
-  * **Wood**: Carving, Weaving
-  * **Geomancy**: Manse construction, Layline movement/Demesne construction.
+* There are 3 primary "special" crafts
+  * **Geomancy**: Manse construction (requiring something like "Builder", "Architect", or "Mason"), Layline movement/Demesne construction/repair.
   * **Artifact**: Artifact construction
-  * **First Age Artifice** (FAA)
+  * **First Age Artifice**: (FAA, does not require Lore and Occult 5)
 
 ## Artifacts
 
