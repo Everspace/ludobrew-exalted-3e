@@ -1,8 +1,6 @@
 version: 2.1
 orbs:
   node: circleci/node@4.1.0
-# - NETLIFY_SITE_ID=e5b3d64d-7241-4bea-a328-31aee9a3b722
-#
 
 commands:
   clone:
@@ -10,7 +8,6 @@ commands:
       - run: git clone -q --depth 1 https://github.com/ludobrew/gatsby-theme-ludobrew-core.git -b main
       - run: git clone -q --depth 1 https://github.com/ludobrew/gatsby-theme-ludobrew-exalted-3e.git -b main
       - run: git clone -q --depth 1 https://github.com/Everspace/ludobrew-exalted-3e.git -b main
-
   yarn:
     steps:
       - run: >-
@@ -41,25 +38,71 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - v1-gatsby-cache-
+            - v1-gatsby-cache-{{ .Branch }}
       - run: yarn workspace ludobrew-exalted-3e build
       - save_cache:
           paths:
             - ludobrew-exalted-3e/.cache
             - ludobrew-exalted-3e/public
-          key: v1-gatsby-cache-{{ .BuildNum }}
+          key: v1-gatsby-cache-{{ .Branch }}-{{ .BuildNum }}
+  test:
+    steps:
+      - run: echo "TODO"
   deploy:
     steps:
-      - run: yarn netlify deploy --dir=ludobrew-exalted-3e/public  --prod --auth $NETLIFY_AUTH_TOKEN
+      - run: yarn netlify deploy --dir=ludobrew-exalted-3e/public --prod
 
 jobs:
-  build:
+  setup:
     executor: node/default
     steps:
       - clone
       - yarn
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  build:
+    executor: node/default
+    steps:
+      - attach_workspace:
+          at: .
       - build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  test:
+    executor: node/default
+    environment:
+      NETLIFY_SITE_ID: e5b3d64d-7241-4bea-a328-31aee9a3b722
+    steps:
+      - attach_workspace:
+          at: .
+      - test
+  deploy:
+    executor: node/default
+    environment:
+      NETLIFY_SITE_ID: e5b3d64d-7241-4bea-a328-31aee9a3b722
+    steps:
+      - attach_workspace:
+          at: .
+      - deploy
+
 workflows:
-  build_and_test:
+  ci:
     jobs:
-      - build
+      - setup
+      - build:
+          requires:
+            - setup
+      - test:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - build
+            - test
+          filters:
+            only: main
+
