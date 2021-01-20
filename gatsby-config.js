@@ -44,7 +44,6 @@ module.exports = {
         // siteSpeedSampleRate: 10,
         cookieDomain: "everspace.ca",
       },
-    },
-    "gatsby-plugin-netlify-cms",
+    }
   ],
 }

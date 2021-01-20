@@ -5,6 +5,10 @@ backend:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
     delete: 'Delete {{collection}} “{{slug}}”'
+# TODO: netlify-cms add back in
+#   "gatsby-plugin-netlify-cms": "4.9.0",
+#   "netlify-cms-app": "2.14.14"
+# to PKG json when react 17 ready
 
 # when using the default proxy server port
 local_backend: true

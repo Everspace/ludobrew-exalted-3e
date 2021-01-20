@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   node: circleci/node@3.0.0
+# TODO: figure out netlify again in circleci
 # - NETLIFY_SITE_ID=e5b3d64d-7241-4bea-a328-31aee9a3b722
 #
 
