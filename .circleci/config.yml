@@ -1,0 +1,64 @@
+version: 2.1
+orbs:
+  node: circleci/node@3.0.0
+# - NETLIFY_SITE_ID=e5b3d64d-7241-4bea-a328-31aee9a3b722
+#
+
+commands:
+  clone:
+    steps:
+      - run: git clone -q --depth 1 https://github.com/ludobrew/gatsby-theme-ludobrew-core.git -b main
+      - run: git clone -q --depth 1 https://github.com/ludobrew/gatsby-theme-ludobrew-exalted-3e.git -b main
+      - run: git clone -q --depth 1 https://github.com/Everspace/ludobrew-exalted-3e.git -b main
+
+  yarn:
+    steps:
+      - run: >-
+          echo
+          '{
+            "name": "my-workspace",
+            "private": true,
+            "workspaces": [
+              "gatsby-theme-ludobrew-core",
+              "gatsby-theme-ludobrew-exalted-3e",
+              "ludobrew-exalted-3e"
+            ]
+          }'
+          > package.json
+      - restore_cache:
+          keys:
+            - v1-yarn-{{ .Branch }}-
+      - run: yarn --cache-folder ~/.cache/yarn
+      - save_cache:
+          paths:
+            - ~/.cache/yarn
+            - node_modules
+            - gatsby-theme-ludobrew-core/node_modules
+            - gatsby-theme-ludobrew-exalted/node_modules
+            - ludobrew-exalted-3e/node_modules
+          key: v1-yarn-{{ .Branch }}-{{ .BuildNum }}
+  build:
+    steps:
+      - restore_cache:
+          keys:
+            - v1-gatsby-cache-
+      - run: yarn workspace ludobrew-exalted-3e build
+      - save_cache:
+          paths:
+            - ludobrew-exalted-3e/.cache
+            - ludobrew-exalted-3e/public
+          key: v1-gatsby-cache-{{ .BuildNum }}
+  deploy:
+    steps:
+      - run: yarn netlify deploy --dir=ludobrew-exalted-3e/public  --prod --auth $NETLIFY_AUTH_TOKEN
+workflows:
+  build_and_test:
+    jobs:
+      - clone
+      - yarn
+      - build
+  build_and_deploy:
+    jobs:
+      - clone
+      - yarn
+      - build

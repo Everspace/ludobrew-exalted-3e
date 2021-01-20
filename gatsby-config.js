@@ -9,6 +9,10 @@ module.exports = {
       branch: "master",
     },
   },
+  flags: {
+    DEV_SSR: true,
+    FAST_REFRESH: true,
+  },
   plugins: [
     "gatsby-theme-ludobrew-core",
     "gatsby-theme-ludobrew-exalted-3e",
@@ -41,5 +45,6 @@ module.exports = {
         cookieDomain: "everspace.ca",
       },
     },
+    "gatsby-plugin-netlify-cms",
   ],
 }
