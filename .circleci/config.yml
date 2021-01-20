@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: circleci/node@3.0.0
+  node: circleci/node@4.1.0
 # - NETLIFY_SITE_ID=e5b3d64d-7241-4bea-a328-31aee9a3b722
 #
 
@@ -51,14 +51,15 @@ commands:
   deploy:
     steps:
       - run: yarn netlify deploy --dir=ludobrew-exalted-3e/public  --prod --auth $NETLIFY_AUTH_TOKEN
-workflows:
-  build_and_test:
-    jobs:
+
+jobs:
+  build:
+    executor: node/default
+    steps:
       - clone
       - yarn
       - build
-  build_and_deploy:
+workflows:
+  build_and_test:
     jobs:
-      - clone
-      - yarn
       - build
