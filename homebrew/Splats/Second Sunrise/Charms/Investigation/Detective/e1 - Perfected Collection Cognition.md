@@ -1,6 +1,6 @@
 ---
 content: charm
-cost: -
+cost: ~
 duration: Permanent
 essence: 1
 name: Perfected Collection Cognition
