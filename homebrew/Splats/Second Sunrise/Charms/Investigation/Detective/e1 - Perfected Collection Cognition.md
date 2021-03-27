@@ -11,7 +11,7 @@ splat: Second Sunrise
 tags: []
 trait: Investigation
 tree: Detective
-type: Simple
+type: Permanent
 ---
 
 The Detective can easily see explore the minds of order, and understand the person who exists in chaos.
